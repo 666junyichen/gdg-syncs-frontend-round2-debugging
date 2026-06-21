@@ -24,6 +24,11 @@
     resetForm();
   });
 
+  document.getElementById('modal-cancel-2')?.addEventListener('click', () => {
+    closeModal('task-modal', 'task-overlay');
+    resetForm();
+  });
+
   
   document.getElementById('save-tasks')?.addEventListener('click', handleAddTask);
 
